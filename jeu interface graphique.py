@@ -44,4 +44,4 @@ bou2 = Button(fen1, text='Démarrer', width =8, command=start_it)
 bou2.pack()
 bou3 = Button(fen1, text='Arrêter', width =8, command=stop_it)
 bou3.pack()
-fen1.mainloop
+fen1.mainloop()
